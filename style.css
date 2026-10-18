@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.NAVbAr{
+    
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 59px;
+      background: linear-gradient(135deg, #a855f7, #7c3aed, #6d28d9);
+    border-bottom: 1px solid rgb(128, 43, 230) ;
+    display: flex;
+    align-items: center;
+    gap: 156px;
+
+}
+.cart-btn:hover{
+cursor: pointer;
+background-color: linear-gradient(135deg, #c4b5fd, #e9d5ff) ;
+  color: #4c1d95;
+
+     transform: scale(1.05);
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+
+}
+.hover-btn{
+      padding: 8px 19px;
+        border: none;
+  border-radius: 8.5px;
+  font-size: 17px;
+  font-weight: 200;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.LIstUl{
+
+    display: flex;
+    list-style: none;
+    color:white ;
+    gap: 206px;
+    
+}
+.LIstUl li:hover{
+  cursor: pointer;
+  
+background-color: linear-gradient(135deg, #c4b5fd, #e9d5ff) ;
+  transform: scale(1.05);
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.heading{
+  margin-left: 145px;
+  margin-right: 145px;
+}
+.card2{
+  
+}
